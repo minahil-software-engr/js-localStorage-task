@@ -1,4 +1,4 @@
-1. Browser Storage Ke 3 Main Ways
+   Browser Storage Ke 3 Main Ways
 
 LocalStorage:
 
@@ -18,7 +18,7 @@ Purpose: Chote size ke data aur authentication details ko store karne ke liye us
 Working: Har HTTP request ke sath browser automatically cookies ko server par bhejta hai.
 Usage: User login tokens, session identification, aur tracking ke liye use hota hai.
 
- Comparison: Expiration & Size Limits:
+   Comparison: Expiration & Size Limits:
 
 Capacity (Size Limit):
 Cookies:Boht kam capacity hoti hai (sirf **~4 KB** per cookie).
@@ -31,7 +31,7 @@ Cookies: Iski expiration date code se manually set ki jati hai (`max-age` ya `ex
 LocalStorage:Expiration nahi hoti; data **permanent** rehta hai jab tak user ya script isay delete na kar de.
 SessionStorage: Specific browser **tab close hote hi automatic expire** ho jata hai.
 
- Challenge: LocalStorage vs SessionStorage Behavior Difference
+   Challenge: LocalStorage vs SessionStorage Behavior Difference
 
 Jab aap `localStorage` ki jagah `sessionStorage` apply karti hain, toh behavior mein 2 main changes aate hain:
 
